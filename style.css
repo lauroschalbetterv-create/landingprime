@@ -64,3 +64,62 @@ body {
     font-family: "Rubik", sans-serif;
     text-align: center;
 }
+
+.descripcion {
+    background-color: #494547;
+    width: 90%;
+    padding: 20px;
+    padding-top: 30px;
+    max-width: 800px;
+    border-radius: 12px;
+    min-height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.subscripciones {
+    background-color: #494547;
+    width: 90%;
+    padding: 20px;
+    padding-top: 30px;
+    max-width: 800px;
+    border-radius: 12px;
+    min-height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.subscripciones-b {
+    background-color: #565254;
+    border-radius: 12px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: "Rubik", sans-serif;
+    margin-top: 10px;
+    color: white;
+    border-color: white;
+}
+
+.foot {
+    background-color: #565254;
+    height: 60px;
+    width: auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
