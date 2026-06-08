@@ -1,12 +1,18 @@
 body {
-    background-color: #FFFBFE;
+    background-color: #FFFBFE; /* fallback */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .barra {
-    background-color: #565254;
+    background-color: rgba(86,82,84,0.90);
     display: flex;
     color: #FFFFFF;
     justify-content: space-between;
@@ -25,7 +31,7 @@ body {
 }
 
 .main {
-    background-color: #565254;
+    background-color: rgba(86,82,84,0.85);
     width: 80%;
     max-width: 700px;
     min-height: 200px;
@@ -46,7 +52,7 @@ body {
 }
 
 .info {
-    background-color: #494547;
+    background-color: rgba(73,69,71,0.82);
     width: 80%;
     max-width: 500px;
     border-radius: 12px;
@@ -60,7 +66,7 @@ body {
 }
 
 .contador {
-    background-color: #494547;
+    background-color: rgba(73,69,71,0.82);
     width: 80%;
     max-width: 500px;
     border-radius: 12px;
@@ -73,7 +79,7 @@ body {
 }
 
 .descripcion {
-    background-color: #494547;
+    background-color: rgba(73,69,71,0.82);
     width: 90%;
     padding: 20px;
     padding-top: 30px;
@@ -90,7 +96,7 @@ body {
 }
 
 .subscripciones {
-    background-color: #494547;
+    background-color: rgba(73,69,71,0.82);
     width: 90%;
     padding: 20px;
     padding-top: 30px;
@@ -106,7 +112,7 @@ body {
 }
 
 .subscripciones-b {
-    background-color: #565254;
+    background-color: rgba(86,82,84,0.95);
     border-radius: 12px;
     height: 60px;
     width: 200px;
@@ -117,10 +123,17 @@ body {
     margin-top: 10px;
     color: white;
     border-color: white;
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 250ms ease;
+}
+
+.subscripciones-b:hover {
+    transform: scale(1.05);
 }
 
 .foot {
-    background-color: #565254;
+    background-color: rgba(86,82,84,0.95);
     height: 60px;
     width: auto;
     font-size: 10px;
@@ -130,3 +143,4 @@ body {
     font-family: "Rubik", sans-serif;
     color: white;
 }
+
