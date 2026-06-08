@@ -36,6 +36,13 @@ body {
     gap: 20px;
     padding: 20px;
     border-radius: 12px;
+    transform: scale(1);
+    transform-origin: center;
+    transition: transform 250ms ease;
+}
+
+.main:hover {
+    transform: scale(1.05);
 }
 
 .info {
