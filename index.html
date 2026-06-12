@@ -15,7 +15,7 @@
         </nav>
 
         <nav class="otro">
-            <p>| | |</p>
+            <button onclick="no_work()">| | |</button>
         </nav>
     </div>
 
@@ -42,17 +42,21 @@ Entre las ganas de pasarla bien, la libertad de crecer y la infaltable necesidad
         
         <div class="subscripciones">
             <h1>Suscribete YA</h1>
-           <button class="subscripciones-b">Plan Picsa</button>
-           <button class="subscripciones-b">Plan Picsa Pro+ (35% Descuento)</button>
+           <button onclick="no_work()" class="subscripciones-b">Plan Picsa</button>
+           <button onclick="no_work()" class="subscripciones-b">Plan Picsa Pro+ (35% Descuento)</button>
         </div>
     </div>
 
     <footer class="foot">
-        <button style="font-size: 15; color: white; border-color: transparent; background-color: transparent; padding-top: 5px; padding-left: 10px;">Quienes Somos?</button>
-        <button style="font-size: 15; color: white; border-color: transparent; background-color: transparent; padding-top: 5px; padding-right: 10px;">Contactanos</button>
+        <button onclick="no_work()" style="font-size: 15; color: white; border-color: transparent; background-color: transparent; padding-top: 5px; padding-left: 10px;">Quienes Somos?</button>
+        <button onclick="no_work()" style="font-size: 15; color: white; border-color: transparent; background-color: transparent; padding-top: 5px; padding-right: 10px;">Contactanos</button>
     </footer>
 </body>
 <script>
+        function no_work() {
+            alert("Esta funcion no esta disponible actualmente");
+        }
+
         let horas = 24;
         let minutos = 0;
         let segundos = 0;
