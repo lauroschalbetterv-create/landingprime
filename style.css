@@ -1,5 +1,5 @@
 body {
-    background-color: #FFFBFE;
+    background-color: #FFFBFE; /* fallback */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -121,10 +121,10 @@ body {
 .subscripciones-b {
     background-color: rgba(86,82,84,0.95);
     border-radius: 12px;
-    height: 60px;
+    height: 70px;
     width: 200px;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     display: block;
     margin: auto;
     font-family: "Rubik", sans-serif;
